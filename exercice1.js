@@ -26,8 +26,9 @@ document.getElementById('boutonAfficherHasard').addEventListener('click', functi
 })
 
 document.getElementById('afficherTableau').addEventListener('click', function (){
-    
+    let tableauJoin = tableau.join(' - ');
+    let numerosIndex = 0;
 
-    document.getElementById('divAfficheTableau').innerHTML = tableau;
+    document.getElementById('divAfficheTableau').innerHTML = numerosIndex + tableauJoin;
 
 })
